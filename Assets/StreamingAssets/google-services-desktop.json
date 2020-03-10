@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 1
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "100733244371-fq7vvjl3gtlne3j63t2raanjod7jqbft.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyABx16srcF4xBi-KOKlEUrgXQliGGXhEj8"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:100733244371:ios:632f40ed6b844eecb7d526", 
+        "android_client_info": {
+          "package_name": "com.CinnamonBuns.destiNations"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "destinations-647db.appspot.com", 
+    "project_id": "destinations-647db", 
+    "firebase_url": "https://destinations-647db.firebaseio.com", 
+    "project_number": "100733244371"
+  }
+}
