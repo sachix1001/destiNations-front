@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 
-public class Airplane : MonoBehaviour
+public class Airplane : MonoBehaviour, IPointerDownHandler
 {
     public string ccTo;
     public string ccFrom;
@@ -17,7 +18,7 @@ public class Airplane : MonoBehaviour
     public GameObject CountryCanvas;
     public GameObject UI;
 
-    void OnMouseDown()
+    public void OnPointerDown(PointerEventData eventData)
     {
         UI = GameObject.Find("/UIComponents");
         Transform uiTr = UI.transform;

@@ -19,7 +19,7 @@ public class ClientAPI : MonoBehaviour
     [SerializeField]
     Airplane[] prefabs;
 
-    public string url;
+    private string url = "//desti-nations-stage.herokuapp.com/";
     public static object planeData = "the data";
     public string result;
     public object data;
@@ -96,8 +96,9 @@ public class ClientAPI : MonoBehaviour
                             Vector3 midpoint = (departure.transform.position + arrival.transform.position) * 0.5f;
 
                             p.position = Vector3.MoveTowards(midpoint, globe.transform.position, -2f);
-                            p.localRotation = Quaternion.Euler(208.305f, -2.268005f, -48.89499f);
-                            p.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+                            p.LookAt(arrival.transform);
+                            //p.localRotation = Quaternion.Euler(208.305f, -2.268005f, -48.89499f);
+                            //p.localScale = new Vector3(0.3f, 0.3f, 0.3f);
 
 
                             var splinePoints = new List<Vector3>();
