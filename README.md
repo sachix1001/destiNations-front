@@ -15,7 +15,7 @@ To render the Globe in the same dimensions you will also need Blender
 
 ## Deployment
 
-The front-end is deployed on Play Store and Google Play
+The front-end is deployed on [Play Store](https://play.google.com/apps/testing/com.CinnamonBuns.destiNations)
 
 ## Built With
 
