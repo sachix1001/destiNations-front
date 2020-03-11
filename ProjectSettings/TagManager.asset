@@ -37,6 +37,7 @@ TagManager:
   - mainText
   - flagImg
   - close
+  - someFacts
   layers:
   - Default
   - TransparentFX

@@ -28,10 +28,22 @@ public class Airplane : MonoBehaviour, IPointerDownHandler
             {
                 foreach (Transform grandchild in child)
                 {
+                        if (countryName == "United States of America") {
+                            countryName = "The " + countryName; 
+                        }
+                        if (countryName == "United Kingdom of Great Britain and Northern Ireland") {
+                            countryName = "The United Kingdom";
+                        }
                     if (grandchild.tag == "mainText")
                     {
                         // name of the country
-                        grandchild.GetComponent<UnityEngine.UI.Text>().text = countryName;
+                        grandchild.GetComponent<UnityEngine.UI.Text>().text = $"This plane is on its way to...\r\n{countryName}!";
+                    }
+
+                    if (grandchild.tag == "someFacts")
+                    {
+                        // some facts about COUNTRYNAME
+                        grandchild.GetComponent<UnityEngine.UI.Text>().text = $"Some facts about {countryName}:";
                     }
 
                     if (grandchild.tag == "flagImg")
