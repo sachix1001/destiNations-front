@@ -42,8 +42,13 @@ public class Airplane : MonoBehaviour, IPointerDownHandler
 
                     if (grandchild.tag == "someFacts")
                     {
+                        foreach (Transform ggrandchild in grandchild) {
                         // some facts about COUNTRYNAME
-                        grandchild.GetComponent<UnityEngine.UI.Text>().text = $"Some facts about {countryName}:";
+                       // if (ggrandchild.tag == "someFacts")
+                   // {
+                        ggrandchild.GetComponent<UnityEngine.UI.Text>().text = $"Learn more about\r\n{countryName}?";
+                        }
+                        //}
                     }
 
                     if (grandchild.tag == "flagImg")

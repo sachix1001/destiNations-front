@@ -92,7 +92,8 @@ public class ClientAPI : MonoBehaviour
 
                             departure = GameObject.FindGameObjectWithTag($"{instance.ccFrom}");
                             arrival = GameObject.FindGameObjectWithTag($"{instance.ccTo}");
-
+                            if (departure != null && arrival != null) 
+                            {
                             Vector3 midpoint = (departure.transform.position + arrival.transform.position) * 0.5f;
 
                             p.position = Vector3.MoveTowards(midpoint, globe.transform.position, -2f);
@@ -117,7 +118,7 @@ public class ClientAPI : MonoBehaviour
                             spline.Draw3DAuto();
                         //}
 
-                      
+                            }
                     }
                     
                 }
