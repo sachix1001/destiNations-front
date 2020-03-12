@@ -38,6 +38,8 @@ TagManager:
   - flagImg
   - close
   - someFacts
+  - languagesSpoken
+  - titleLarge
   layers:
   - Default
   - TransparentFX
