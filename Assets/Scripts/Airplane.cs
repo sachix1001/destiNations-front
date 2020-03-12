@@ -11,6 +11,8 @@ public class Airplane : MonoBehaviour, IPointerDownHandler
     public string ccFrom;
     public string countryName;
     public string flag;
+    public string language;
+    public string greeting;
     public Image flagImage;
     private Texture2D texture;
 
