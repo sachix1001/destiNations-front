@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0032926209, g: 0.0068892385, b: 0.0032926209, a: 1}
+  m_IndirectSpecularColor: {r: 0.0069240867, g: 0.0069240867, b: 0.0069240867, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -403,6 +403,8 @@ MonoBehaviour:
   ccTo: 
   ccFrom: 
   countryName: 
+  language: 
+  greeting: 
   flag: 
   flagImage: {fileID: 0}
   audioSource: {fileID: 0}
@@ -969,6 +971,7 @@ MonoBehaviour:
   - {fileID: 7640367648985140339, guid: 3425c276dcc336349980aec8eea3ebfe, type: 3}
   result: 
   facts: {fileID: 1809360166}
+  fullFacts: {fileID: 0}
   globe: {fileID: 750446939}
   segments: 10
   loop: 1
@@ -1198,8 +1201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91abaa55c05c946ba97501ef15a1aa9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UI: {fileID: 0}
   countryName: 
+  language: 
+  greeting: 
 --- !u!114 &1809360166 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4211588529457431435, guid: d84fb14b6b515487899e895b5dd02879,
@@ -1964,6 +1968,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 3136564095738585960, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5251306885260708763, guid: d84fb14b6b515487899e895b5dd02879,
         type: 3}
       propertyPath: m_IsActive
@@ -1978,6 +1987,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5378493600602461541, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -101
       objectReference: {fileID: 0}
     - target: {fileID: 5605563359572015119, guid: d84fb14b6b515487899e895b5dd02879,
         type: 3}
@@ -2077,10 +2091,20 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7932981066515485153, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_TagString
+      value: greeting
+      objectReference: {fileID: 0}
     - target: {fileID: 8240254016612994626, guid: d84fb14b6b515487899e895b5dd02879,
         type: 3}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847111803081585240, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8876044945137547242, guid: d84fb14b6b515487899e895b5dd02879,
         type: 3}

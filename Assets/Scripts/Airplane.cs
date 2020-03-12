@@ -13,8 +13,6 @@ public class Airplane : MonoBehaviour, IPointerDownHandler
     public string language;
     public string greeting;
     public string flag;
-    public string language;
-    public string greeting;
     public Image flagImage;
     private Texture2D texture;
     public AudioSource audioSource;
@@ -83,6 +81,11 @@ public class Airplane : MonoBehaviour, IPointerDownHandler
                     }
                     if (grandchild.tag == "languagesSpoken") {
                         grandchild.GetComponent<UnityEngine.UI.Text>().text = $"In {countryName}, we speak {language}.";
+                    }
+                    foreach (Transform ggrandchild in grandchild) { 
+                        if (ggrandchild.tag == "greeting") {
+                            ggrandchild.GetComponent<UnityEngine.UI.Text>().text = $"{greeting}!";
+                        }
                     }
                 }
             }
