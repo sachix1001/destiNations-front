@@ -10,16 +10,27 @@ public class Airplane : MonoBehaviour, IPointerDownHandler
     public string ccTo;
     public string ccFrom;
     public string countryName;
+    public string language;
+    public string greeting;
     public string flag;
     public Image flagImage;
     private Texture2D texture;
+    public AudioSource audioSource;
+    public AudioClip audioClip;
 
     public int ShapeID { get; set; } = int.MinValue;
     public GameObject CountryCanvas;
     public GameObject UI;
 
+
+    public void playClip(){
+        audioSource.clip = audioClip;
+        audioSource.Play();
+    }
+
     public void OnPointerDown(PointerEventData eventData)
     {
+        playClip();
         UI = GameObject.Find("/UIComponents");
         Transform uiTr = UI.transform;
         foreach (Transform child in uiTr)
@@ -59,6 +70,17 @@ public class Airplane : MonoBehaviour, IPointerDownHandler
                     if (grandchild.tag == "close")
                     {
                         grandchild.gameObject.SetActive(true);
+                    }
+                }
+            }
+            if (child.tag == "fullScreenFacts")
+            {
+                foreach (Transform grandchild in child) {
+                    if (grandchild.tag == "titleLarge") {
+                        grandchild.GetComponent<UnityEngine.UI.Text>().text = $"Learn about {countryName}:";
+                    }
+                    if (grandchild.tag == "languagesSpoken") {
+                        grandchild.GetComponent<UnityEngine.UI.Text>().text = $"In {countryName}, we speak {language}.";
                     }
                 }
             }

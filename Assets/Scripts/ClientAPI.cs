@@ -89,6 +89,8 @@ public class ClientAPI : MonoBehaviour
                             instance.ccFrom = N["data"][i]["from"]["country"]["cc"];
                             instance.countryName = N["data"][i]["to"]["country"]["name"];
                             instance.flag = N["data"][i]["to"]["country"]["flag"];
+                            instance.language = N["data"][i]["to"]["country"]["languages"][0]["name"];
+                            instance.greeting = N["data"][i]["to"]["country"]["greeting"];
 
                             departure = GameObject.FindGameObjectWithTag($"{instance.ccFrom}");
                             arrival = GameObject.FindGameObjectWithTag($"{instance.ccTo}");
