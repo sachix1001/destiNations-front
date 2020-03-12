@@ -1708,10 +1708,119 @@ PrefabInstance:
       propertyPath: m_TagString
       value: someFacts
       objectReference: {fileID: 0}
+    - target: {fileID: 168475609646084792, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: df9aaefa3a9d641d3ae55fa1ab3cd33e,
+        type: 3}
+    - target: {fileID: 168475609646084792, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_Text
+      value: In France, we speak French.
+      objectReference: {fileID: 0}
+    - target: {fileID: 168475609646084792, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 168475609646084792, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 168475609646084792, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1429551979872116669, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_TagString
+      value: titleLarge
+      objectReference: {fileID: 0}
+    - target: {fileID: 2838024287933599847, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5251306885260708763, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5378493600602461541, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5378493600602461541, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5605563359572015119, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670985502086484116, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670985502086484116, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 5670985502086484116, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5863108703242816570, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Fun Fact:
+
+        In this country, it common that this thing happens
+        and it''s weird! historical evidence too!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6518275109095029316, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6518275109095029316, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6518275109095029316, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -20
+      objectReference: {fileID: 0}
     - target: {fileID: 6832661553031266361, guid: d84fb14b6b515487899e895b5dd02879,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7363873248893831397, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7399824536847593763, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8240254016612994626, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8876044945137547242, guid: d84fb14b6b515487899e895b5dd02879,
         type: 3}
@@ -1921,7 +2030,7 @@ PrefabInstance:
     - target: {fileID: 8876044945674469193, guid: d84fb14b6b515487899e895b5dd02879,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8876044945674469195, guid: d84fb14b6b515487899e895b5dd02879,
         type: 3}
