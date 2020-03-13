@@ -1798,10 +1798,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1927896208}
-    - target: {fileID: 6832661553031266361, guid: d84fb14b6b515487899e895b5dd02879,
+    - target: {fileID: 5435597462977401122, guid: d84fb14b6b515487899e895b5dd02879,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 8608627615386191769, guid: 72d9a915e79ea4bacadf4aefb68f75e1,
+        type: 3}
+    - target: {fileID: 5435597462977401122, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: originalPosition
+      objectReference: {fileID: 0}
+    - target: {fileID: 5435597462977401122, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7381421369736286510, guid: d84fb14b6b515487899e895b5dd02879,
         type: 3}
