@@ -24,6 +24,7 @@ public class ClientAPI : MonoBehaviour
     public string result;
     public object data;
     public CountryFacts facts;
+    public fullScreenFacts fullFacts;
     public GameObject globe;
     private Airplane instance;
     private GameObject departure;
@@ -92,7 +93,8 @@ public class ClientAPI : MonoBehaviour
                             instance.language = N["data"][i]["to"]["country"]["languages"][0]["name"];
                             instance.greeting = N["data"][i]["to"]["country"]["greeting"];
 
-                            departure = GameObject.FindGameObjectWithTag($"{instance.ccFrom}");
+
+                        departure = GameObject.FindGameObjectWithTag($"{instance.ccFrom}");
                             arrival = GameObject.FindGameObjectWithTag($"{instance.ccTo}");
                             if (departure != null && arrival != null) 
                             {

@@ -41,6 +41,7 @@ TagManager:
   - languagesSpoken
   - titleLarge
   - fullScreenFacts
+  - greeting
   layers:
   - Default
   - TransparentFX
