@@ -386,6 +386,7 @@ MonoBehaviour:
   language: 
   greeting: 
   flag: 
+  animal: 
   flagImage: {fileID: 0}
   audioSource: {fileID: 0}
   audioClip: {fileID: 0}
@@ -1825,6 +1826,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831054190737229828, guid: d84fb14b6b515487899e895b5dd02879,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7381421369736286510, guid: d84fb14b6b515487899e895b5dd02879,
         type: 3}
