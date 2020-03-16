@@ -13,6 +13,7 @@ public class Airplane : MonoBehaviour, IPointerDownHandler
     public string language;
     public string greeting;
     public string flag;
+    public string animal;
     public Image flagImage;
     private Texture2D texture;
     public AudioSource audioSource;
@@ -39,11 +40,17 @@ public class Airplane : MonoBehaviour, IPointerDownHandler
             {
                 foreach (Transform grandchild in child)
                 {
-                        if (countryName == "United States of America") {
+                        if (countryName == "United States of America" || countryName == "Philippines") {
                             countryName = "The " + countryName; 
                         }
                         if (countryName == "United Kingdom of Great Britain and Northern Ireland") {
                             countryName = "The United Kingdom";
+                        }
+                        if (countryName == "Russian Federation") {
+                            countryName = "Russia";
+                        }
+                        if (countryName == "Korea (Republic of)") {
+                            countryName = "South Korea";
                         }
                     if (grandchild.tag == "mainText")
                     {
@@ -78,6 +85,15 @@ public class Airplane : MonoBehaviour, IPointerDownHandler
                 foreach (Transform grandchild in child) {
                     if (grandchild.tag == "titleLarge") {
                         grandchild.GetComponent<UnityEngine.UI.Text>().text = $"Learn about {countryName}:";
+                    }
+                    if (grandchild.tag == "funFact") {
+                        grandchild.GetComponent<UnityEngine.UI.Text>().text = $"The national animal of {countryName} is the {animal}.";
+                    }
+                    if (grandchild.tag == "flagImg") {
+                        grandchild.GetComponent<Image>().sprite = Resources.Load<Sprite>($"{ccTo}");
+                    }
+                    if (grandchild.tag == "flagImg") {
+                        grandchild.GetComponent<Image>().sprite = Resources.Load<Sprite>($"{ccTo}");
                     }
                     if (grandchild.tag == "languagesSpoken") {
                         grandchild.GetComponent<UnityEngine.UI.Text>().text = $"In {countryName}, we speak {language}.";
