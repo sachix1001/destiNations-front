@@ -93,6 +93,7 @@ public class ClientAPI : MonoBehaviour
                             instance.flag = N["data"][i]["to"]["country"]["flag"];
                             instance.language = N["data"][i]["to"]["country"]["languages"][0]["name"];
                             instance.greeting = N["data"][i]["to"]["country"]["greeting"];
+                            instance.animal = N["data"][i]["to"]["country"]["animal"];
                             // instance.greeting = Encoding.UTF8.GetString(Encoding.Convert(Encoding.Unicode, Encoding.UTF8, Encoding.Unicode.GetBytes($"{greet}")));
                             
 

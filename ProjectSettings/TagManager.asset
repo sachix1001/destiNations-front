@@ -42,6 +42,7 @@ TagManager:
   - titleLarge
   - fullScreenFacts
   - greeting
+  - funFact
   layers:
   - Default
   - TransparentFX
