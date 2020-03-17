@@ -40,8 +40,11 @@ public class Airplane : MonoBehaviour, IPointerDownHandler
             {
                 foreach (Transform grandchild in child)
                 {
-                        if (countryName == "United States of America" || countryName == "Philippines") {
+                        if (countryName == "Philippines") {
                             countryName = "The " + countryName; 
+                        }
+                        if (countryName == "United States of America") {
+                            countryName = "The United States";
                         }
                         if (countryName == "United Kingdom of Great Britain and Northern Ireland") {
                             countryName = "The United Kingdom";
