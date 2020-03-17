@@ -1,4 +1,4 @@
-<img src="https://github.com/cinnamon-buns/destiNations-front/blob/master/destinationslogo.png" alt="logo" width="200" align="right"/>
+<img src="https://github.com/cinnamon-buns/destiNations-front/blob/master/destinationslogo.png" alt="logo" width="100" />
 
 # destiNations
 
