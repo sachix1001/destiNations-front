@@ -100,6 +100,8 @@ public class Airplane : MonoBehaviour, IPointerDownHandler
                     }
                     foreach (Transform ggrandchild in grandchild) { 
                         if (ggrandchild.tag == "greeting") {
+                            // greeting = greeting.Replace("&#", "\u");
+                            greeting = 
                             ggrandchild.GetComponent<UnityEngine.UI.Text>().text = $"{greeting}!";
                         }
                     }
