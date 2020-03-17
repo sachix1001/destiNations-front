@@ -31,7 +31,7 @@ public class ClientAPI : MonoBehaviour
     private GameObject departure;
     private GameObject arrival;
     private VectorLine spline;
-    public int segments = 100;
+    private int segments = 100;
     public bool loop = true;
     List<Airplane> airplanes;
     //List<string> countryCodes = new List<string> () {"EG", "US", "DE", "GR", "FR", "CN", "BR", "GB", "AU", "CA", "RU", "JP", "TR", "UK", "TH", "MX", "PH", "DZ", "AE", "ZA", "KR", "ES", "AR", "IN"};
@@ -45,11 +45,6 @@ public class ClientAPI : MonoBehaviour
     {
         StartCoroutine(Get(url));
     }
-
-    //void LateUpdate()
-    //{
-    //    spline.Draw3DAuto();
-    //}
 
 
     public IEnumerator Get(string url)
@@ -115,7 +110,7 @@ public class ClientAPI : MonoBehaviour
                             splinePoints.Add(departure.transform.localPosition);
                             splinePoints.Add(p.localPosition);
                             splinePoints.Add(arrival.transform.localPosition);
-                            spline = new VectorLine("Spline", new List<Vector3>(segments + 1), 10.0f, LineType.Continuous); //LineType.Discrete
+                            spline = new VectorLine("Spline", new List<Vector3>(segments + 1), 3.0f, LineType.Continuous); //LineType.Discrete
                             //spline.SetColor(new Color(204, 0, 82));
                             spline.MakeSpline(splinePoints.ToArray(), segments, loop);
                             //spline.MakeSpline(splinePoints.ToArray());

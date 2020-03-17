@@ -21,10 +21,6 @@ public class EarthScript : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(obj.transform.rotation.x);
-        Debug.Log(obj.transform.rotation.y);
-        Debug.Log(obj.transform.rotation.z);
-
         wid = Screen.width;
         hei = Screen.height;
         diag = Mathf.Sqrt(Mathf.Pow(wid, 2) + Mathf.Pow(hei, 2));

@@ -63,22 +63,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EarthPosition.cs" />
-    <Compile Include="Assets\ImageFromWeb.cs" />
     <Compile Include="Assets\Resources\sound.cs" />
     <Compile Include="Assets\Scripts\Airplane.cs" />
-    <Compile Include="Assets\Scripts\AirplaneController.cs" />
-    <Compile Include="Assets\Scripts\AirplaneFactory.cs" />
-    <Compile Include="Assets\Scripts\Arc.cs" />
+    <Compile Include="Assets\Scripts\AudioPlayer.cs" />
     <Compile Include="Assets\Scripts\ClientAPI.cs" />
     <Compile Include="Assets\Scripts\CountryFacts.cs" />
     <Compile Include="Assets\Scripts\DataLoader.cs" />
     <Compile Include="Assets\Scripts\DataVisualizer.cs" />
+    <Compile Include="Assets\Scripts\EarthPosition.cs" />
     <Compile Include="Assets\Scripts\EarthScript.cs" />
     <Compile Include="Assets\Scripts\FirebaseInit.cs" />
     <Compile Include="Assets\Scripts\ImageFromWeb.cs" />
     <Compile Include="Assets\Scripts\LineDrawer.cs" />
     <Compile Include="Assets\Scripts\PathLines.cs" />
+    <Compile Include="Assets\Scripts\UserAuthentication.cs" />
     <Compile Include="Assets\Scripts\fullScreenFacts.cs" />
     <Compile Include="Assets\Scripts\someFacts.cs" />
     <Compile Include="Assets\Vectrosity\FirstArc.cs" />
@@ -89,61 +87,61 @@
     <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-database-unity\maven-metadata.xml" />
     <None Include="Assets\Vectrosity\Vectrosity Documentation\Vectrosity5 Upgrade Guide.txt" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.3f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -317,43 +315,43 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.3f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Compat">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Tasks">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Auth">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
     </Reference>
     <Reference Include="Google.MiniJson">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Database">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.App">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Platform">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.TaskExtension">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
     </Reference>
     <Reference Include="Vectrosity">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Assets/Vectrosity/Plugins/Vectrosity.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Vectrosity/Plugins/Vectrosity.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/sachigrannan/Desktop/cinnamon/destiNations-front/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>/Applications/Unity/Hub/Editor/2019.3.3f1/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <HintPath>/Applications/Unity/Hub/Editor/2019.3.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.3f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
