@@ -1295,6 +1295,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: earth
       objectReference: {fileID: 0}
+    - target: {fileID: 4776227125810776902, guid: 72d9a915e79ea4bacadf4aefb68f75e1,
+        type: 3}
+      propertyPath: m_TagString
+      value: CN
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72d9a915e79ea4bacadf4aefb68f75e1, type: 3}
 --- !u!1001 &5407978145732292831
