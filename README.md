@@ -2,8 +2,10 @@
 
 # destiNations
 
-A mobile game to help children explore the world  
-Available on App Store [Link](https://apps.apple.com/us/app/destinations-plane/id1502271111)
+A mobile game to help children explore the world   
+[<img src="https://i2.wp.com/listgo.wiloke.com/wp-content/uploads/2017/09/itunes-app-store-logo.png" alt="apple store logo" width="100" /> ](https://apps.apple.com/us/app/destinations-plane/id1502271111)  
+
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="google play store logo" width="110" /> ](https://play.google.com/apps/testing/com.CinnamonBuns.destiNations)  
 
 ### Prerequisites
 
@@ -12,11 +14,7 @@ To run it locally you will need Unity 3d
 If you also want to run the server locally you need also to download the server
 [https://github.com/cinnamon-buns/destiNations-back](https://github.com/cinnamon-buns/destiNations-back)
 
-To render the Globe in the same dimensions you will also need Blender
-
-## Deployment
-
-The front-end is deployed on [Play Store](https://play.google.com/apps/testing/com.CinnamonBuns.destiNations)
+To render the Globe in the same dimensions you will also need Blender  
 
 ## Built With
 
