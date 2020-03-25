@@ -3,6 +3,7 @@
 # destiNations
 
 A mobile game to help children explore the world
+Available on App Store [Link](https://apps.apple.com/us/app/destinations-plane/id1502271111)
 
 ### Prerequisites
 
