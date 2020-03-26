@@ -17,6 +17,12 @@
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
+# Firebase
+/Assets/Firebase/
+
+# IBM Watson
+/Assets/IBMSdkCore-2.13.0/
+
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
 

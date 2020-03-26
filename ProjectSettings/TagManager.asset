@@ -8,15 +8,10 @@ TagManager:
   - TH
   - EG
   - ZA
-  - KR
-  - ES
-  - AR
-  - IN
   - US
   - DE
   - GR
   - FR
-  - CH
   - BR
   - GB
   - AU
@@ -25,25 +20,59 @@ TagManager:
   - JP
   - TR
   - UK
+  - TH
   - MX
   - PH
   - DZ
   - AE
+  - ZA
   - IN
   - AR
   - ES
   - KO
+  - Planet
   - CountryFacts
   - mainText
   - flagImg
-  - close
   - someFacts
-  - languagesSpoken
   - titleLarge
+  - languagesSpoken
+  - close
+  - greeting
+  - fullScreenFacts
+  - KR
+  - CN
+  - funFact
+  - open
+  - someFacts
+  - titleLarge
+  - close
+  - languagesSpoken
+  - funFact
+  - flagImg
   - fullScreenFacts
   - greeting
-  - funFact
+  - CountryFacts
+  - mainText
+  - KR
   - CN
+  - scavengerQuestions
+  - question1
+  - question2
+  - question3
+  - alert
+  - answerOne
+  - answerTwo
+  - answerThree
+  - Text
+  - Button
+  - answerOne
+  - Text
+  - answerTwo
+  - answerThree
+  - passportImg
+  - flags
+  - bubble
   layers:
   - Default
   - TransparentFX
