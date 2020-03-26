@@ -34,7 +34,7 @@ public class ClientAPI : MonoBehaviour
     private GameObject departure;
     private GameObject arrival;
     private VectorLine spline;
-    public int segments = 100;
+    private int segments = 100;
     public bool loop = true;
     public GameObject huntImg;
     List<Airplane> airplanes;
@@ -58,11 +58,6 @@ public class ClientAPI : MonoBehaviour
         UI.SetActive(false);
         StartCoroutine(Get(url));
     }
-
-    //void LateUpdate()
-    //{
-    //    spline.Draw3DAuto();
-    //}
 
 
     public IEnumerator Get(string url)

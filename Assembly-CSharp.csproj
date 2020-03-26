@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets\IBMSdkCore-2.13.0\Examples\ServiceExamples\Scripts\ExampleAssistantV1.cs" />
     <Compile Include="Assets\IBMSdkCore-2.13.0\Examples\ServiceExamples\Scripts\ExampleAssistantV2.cs" />
     <Compile Include="Assets\IBMSdkCore-2.13.0\Examples\ServiceExamples\Scripts\ExampleCallback.cs" />
@@ -425,6 +426,11 @@
     <Compile Include="Assets\Scripts\Arc.cs" />
     <Compile Include="Assets\Scripts\AudioPlayer.cs" />
     <Compile Include="Assets\Scripts\Camera.cs" />
+=======
+    <Compile Include="Assets\Resources\sound.cs" />
+    <Compile Include="Assets\Scripts\Airplane.cs" />
+    <Compile Include="Assets\Scripts\AudioPlayer.cs" />
+>>>>>>> 5750b0e38bb0951d697458e2a03317c82d6cdb8d
     <Compile Include="Assets\Scripts\ClientAPI.cs" />
     <Compile Include="Assets\Scripts\CountryFacts.cs" />
     <Compile Include="Assets\Scripts\DataLoader.cs" />
@@ -440,6 +446,7 @@
     <Compile Include="Assets\Scripts\OpenedPassport.cs" />
     <Compile Include="Assets\Scripts\Passport.cs" />
     <Compile Include="Assets\Scripts\PathLines.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\PlayerScores.cs" />
     <Compile Include="Assets\Scripts\ScavengerHunt.cs" />
     <Compile Include="Assets\Scripts\TouchEarth.cs" />
@@ -447,6 +454,9 @@
     <Compile Include="Assets\Scripts\answerOne.cs" />
     <Compile Include="Assets\Scripts\answerThree.cs" />
     <Compile Include="Assets\Scripts\answerTwo.cs" />
+=======
+    <Compile Include="Assets\Scripts\UserAuthentication.cs" />
+>>>>>>> 5750b0e38bb0951d697458e2a03317c82d6cdb8d
     <Compile Include="Assets\Scripts\fullScreenFacts.cs" />
     <Compile Include="Assets\Scripts\someFacts.cs" />
     <None Include="Assets\IBMSdkCore-2.13.0\Examples\ServiceExamples\TestData\speech-to-text\theJabberwocky-utf8.txt" />
@@ -699,9 +709,12 @@
     </Reference>
     <Reference Include="Google.MiniJson">
       <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+<<<<<<< HEAD
     </Reference>
     <Reference Include="Firebase.Analytics">
       <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Firebase/Plugins/Firebase.Analytics.dll</HintPath>
+=======
+>>>>>>> 5750b0e38bb0951d697458e2a03317c82d6cdb8d
     </Reference>
     <Reference Include="Firebase.Database">
       <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
@@ -714,9 +727,12 @@
     </Reference>
     <Reference Include="Firebase.TaskExtension">
       <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+<<<<<<< HEAD
     </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/IBMSdkCore-2.13.0/Plugins/websocket-sharp.dll</HintPath>
+=======
+>>>>>>> 5750b0e38bb0951d697458e2a03317c82d6cdb8d
     </Reference>
     <Reference Include="Vectrosity">
       <HintPath>/Users/ashleykekona/Documents/CC11/Senior-proj/destiNations-front/Assets/Vectrosity/Plugins/Vectrosity.dll</HintPath>

@@ -21,7 +21,10 @@ public class EarthScript : MonoBehaviour
 
     void Start()
     {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5750b0e38bb0951d697458e2a03317c82d6cdb8d
         wid = Screen.width;
         hei = Screen.height;
         diag = Mathf.Sqrt(Mathf.Pow(wid, 2) + Mathf.Pow(hei, 2));
