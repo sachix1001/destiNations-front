@@ -6,7 +6,7 @@ A mobile game to help children explore the world
   
 ## Download the App
 [<img src="https://i2.wp.com/listgo.wiloke.com/wp-content/uploads/2017/09/itunes-app-store-logo.png" alt="apple store logo" width="100" /> ](https://apps.apple.com/us/app/destinations-plane/id1502271111)  
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="google play store logo" width="110" /> ](https://lh3.googleusercontent.com/proxy/B2-PnDXM_wI_MzWa8FX50lLYjMLqlivhmPn1lfkqdCf-E6_VuZaBVd7qbU4Gh3R86J4JA_ZWdX1LyNx9Zlm7cpLWaViJbBcNJjaCwg)  
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="google play store logo" width="110" /> ](https://play.google.com/store/apps/details?id=com.CinnamonBuns.destiNations)  
 
 ### Prerequisites
 
