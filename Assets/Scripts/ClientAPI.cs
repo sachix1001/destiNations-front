@@ -20,7 +20,10 @@ public class ClientAPI : MonoBehaviour
     [SerializeField]
     Airplane[] prefabs;
 
-    private string url = "//desti-nations-stage.herokuapp.com/";
+    [SerializeField]
+    ScavengerHunt[] window;
+
+    public string url;
     public static object planeData = "the data";
     public string result;
     public object data;
@@ -31,9 +34,16 @@ public class ClientAPI : MonoBehaviour
     private GameObject departure;
     private GameObject arrival;
     private VectorLine spline;
-    public int segments = 100;
+    private int segments = 100;
     public bool loop = true;
+    public GameObject huntImg;
     List<Airplane> airplanes;
+    private int x;
+    private int y;
+    private int z;
+    public GameObject hunt;
+    public GameObject load;
+    public GameObject UI;
     //List<string> countryCodes = new List<string> () {"EG", "US", "DE", "GR", "FR", "CN", "BR", "GB", "AU", "CA", "RU", "JP", "TR", "UK", "TH", "MX", "PH", "DZ", "AE", "ZA", "KR", "ES", "AR", "IN"};
     private int length;
     void Awake()
@@ -43,13 +53,11 @@ public class ClientAPI : MonoBehaviour
 
     void Start()
     {
+        load = GameObject.Find("/Loading");
+        UI = GameObject.Find("/UIComponents");
+        UI.SetActive(false);
         StartCoroutine(Get(url));
     }
-
-    //void LateUpdate()
-    //{
-    //    spline.Draw3DAuto();
-    //}
 
 
     public IEnumerator Get(string url)
@@ -75,6 +83,11 @@ public class ClientAPI : MonoBehaviour
                     var N = JSON.Parse(result);
                     // assign the length of all the to-from Array into an integer (118, on 03/09 evening)
                     length = Int32.Parse(N["length"].Value);
+                    System.Random random = new System.Random();
+                    x = random.Next(0, length);
+                    y = random.Next(0, length);
+                    z = random.Next(0, length);
+                    // Debug.Log($"plane number {x}");
 
                     for (int i = 0; i < length; i++)
                     {
@@ -94,10 +107,11 @@ public class ClientAPI : MonoBehaviour
                             instance.language = N["data"][i]["to"]["country"]["languages"][0]["name"];
                             instance.greeting = N["data"][i]["to"]["country"]["greeting"];
                             instance.animal = N["data"][i]["to"]["country"]["animal"];
+                            WatsonTextToSpeech.greeting = N["data"][i]["to"]["country"]["greeting"];
                             // instance.greeting = Encoding.UTF8.GetString(Encoding.Convert(Encoding.Unicode, Encoding.UTF8, Encoding.Unicode.GetBytes($"{greet}")));
-                            
 
-                        departure = GameObject.FindGameObjectWithTag($"{instance.ccFrom}");
+
+                    departure = GameObject.FindGameObjectWithTag($"{instance.ccFrom}");
                             arrival = GameObject.FindGameObjectWithTag($"{instance.ccTo}");
                             if (departure != null && arrival != null) 
                             {
@@ -110,12 +124,14 @@ public class ClientAPI : MonoBehaviour
                             //p.localRotation = Quaternion.Euler(208.305f, -2.268005f, -48.89499f);
                             //p.localScale = new Vector3(0.3f, 0.3f, 0.3f);
 
-
+                            //change plane texture to flag texture of destination country
+                            instance.GetComponent<MeshRenderer>().material.mainTexture = Resources.Load(instance.ccTo) as Texture2D;
+                            
                             var splinePoints = new List<Vector3>();
                             splinePoints.Add(departure.transform.localPosition);
                             splinePoints.Add(p.localPosition);
                             splinePoints.Add(arrival.transform.localPosition);
-                            spline = new VectorLine("Spline", new List<Vector3>(segments + 1), 10.0f, LineType.Continuous); //LineType.Discrete
+                            spline = new VectorLine("Spline", new List<Vector3>(segments + 1), 3.0f, LineType.Continuous); //LineType.Discrete
                             //spline.SetColor(new Color(204, 0, 82));
                             spline.MakeSpline(splinePoints.ToArray(), segments, loop);
                             //spline.MakeSpline(splinePoints.ToArray());
@@ -128,8 +144,33 @@ public class ClientAPI : MonoBehaviour
                         //}
 
                             }
+
                     }
-                    
+                    load.SetActive(false);
+                    UI.SetActive(true);
+
+                    hunt = GameObject.Find("/UIComponents/ScavengerHunt/huntImg");
+
+                    // hunt.GetComponent<ScavengerHunt>().language = N["data"][x]["to"]["country"]["languages"][0]["name"];
+
+                    hunt.GetComponent<ScavengerHunt>().countryname1 = N["data"][y]["to"]["country"]["name"];
+                    hunt.GetComponent<ScavengerHunt>().animal = N["data"][y]["to"]["country"]["animal"];
+                    answerOne.countryCode = N["data"][y]["to"]["country"]["cc"];
+
+                    hunt.GetComponent<ScavengerHunt>().countryname3= N["data"][z]["to"]["country"]["name"];
+                    hunt.GetComponent<ScavengerHunt>().flag = N["data"][z]["to"]["country"]["cc"];
+                    ScavengerHunt.CC = N["data"][z]["to"]["country"]["cc"];
+                    answerThree.countryCode = N["data"][z]["to"]["country"]["cc"];
+
+                    while (N["data"][x]["to"]["country"]["languages"][0]["name"].Value == "English" || N["data"][x]["to"]["country"]["languages"][0]["name"].Value == "Spanish")
+                    {
+                   
+                        x = random.Next(0, length);
+                    }
+                  
+                    hunt.GetComponent<ScavengerHunt>().language = N["data"][x]["to"]["country"]["languages"][0]["name"];
+                    hunt.GetComponent<ScavengerHunt>().countryname2 = N["data"][x]["to"]["country"]["name"];
+                    answerTwo.countryCode = N["data"][x]["to"]["country"]["cc"];
                 }
                 else
                 {

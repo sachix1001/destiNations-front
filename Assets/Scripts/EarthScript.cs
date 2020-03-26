@@ -21,10 +21,10 @@ public class EarthScript : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(obj.transform.rotation.x);
-        Debug.Log(obj.transform.rotation.y);
-        Debug.Log(obj.transform.rotation.z);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5750b0e38bb0951d697458e2a03317c82d6cdb8d
         wid = Screen.width;
         hei = Screen.height;
         diag = Mathf.Sqrt(Mathf.Pow(wid, 2) + Mathf.Pow(hei, 2));
@@ -39,7 +39,7 @@ public class EarthScript : MonoBehaviour
         }
         if (Input.touchCount == 1)
         {
-            rotate = false;
+            rotate = rotate;
             //回転
             Touch t1 = Input.GetTouch(0);
             if (t1.phase == TouchPhase.Began)
@@ -52,7 +52,7 @@ public class EarthScript : MonoBehaviour
                 tx = (t1.position.x - sPos.x) / wid; //横移動量(-1<tx<1)
                 ty = (t1.position.y - sPos.y) / hei; //縦移動量(-1<ty<1)
                 obj.transform.rotation = sRot;
-                obj.transform.Rotate(new Vector3(90 * ty, -90 * tx, 0), Space.World);
+                obj.transform.Rotate(new Vector3(-90 * ty, -90 * tx, 0), Space.World);
                 //obj.transform.Rotate(new Vector3(0, -90 * tx, 0), Space.World);
 
             }
