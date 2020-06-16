@@ -3,6 +3,9 @@
 # destiNations
   
 A mobile game to help children explore the world   
+
+## Demo 
+https://youtu.be/JXvOFLwbkLc?t=1225
   
 ## Download the App
 [<img src="https://i2.wp.com/listgo.wiloke.com/wp-content/uploads/2017/09/itunes-app-store-logo.png" alt="apple store logo" width="100" /> ](https://apps.apple.com/us/app/destinations-plane/id1502271111)  
